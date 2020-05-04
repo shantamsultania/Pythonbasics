@@ -1,0 +1,19 @@
+# Code starts here
+
+# create list of weights
+weights = [70,80,45,50]
+
+# maximum weight
+maximum = max(weights)
+# change values
+weights[2] = 48
+print(weights)
+# calculate sum
+
+total = sum(weights)
+# calculate mean
+mean = total/4
+print(maximum)
+print(total)
+print(mean)
+# Code ends here

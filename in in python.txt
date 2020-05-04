@@ -1,0 +1,14 @@
+# given variable
+name = "John"
+
+# Code starts here
+# check for memberships
+john = "John" in ["John","Rick"]
+
+hall = "John" in ["Hall","Rick"]
+# Display variables
+
+print(john)
+print(hall)
+
+# Code ends here

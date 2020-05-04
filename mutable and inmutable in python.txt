@@ -1,0 +1,44 @@
+Introduction
+You have been hearing about mutable and immutable all along. Simply put, objects which can be modified after creation in the same memory location are called mutable and the others which cannot are termed immutable.
+
+Immutable Objects: int, float, long, complex, string, tuple, bool
+
+Mutable Objects: list, dict, set, byte array, user-defined classes
+
+Checking Mutability
+You can check if an object is mutable by first modifying the object and then comparing its new memory location with the old memory location. You can check for memory location either by using the id() function, which gives the memory location of an object or with the help of is operator, which checks for the identity of two objects.
+
+First, let's take an integer (type int) 50 and add 1 to it with the same variable name, then check its memory location before and after modification with id(). As it turns out, both have different memory locations, and hence it is an immutable type.
+
+#initial variable
+a = 50
+# initial memory location
+print(id(a))
+#modified variable
+a += 1
+# new memory location, is it same?
+print(id(a))
+Output
+
+94285850046496
+94285850046528
+Now, let's take a list with values [1,2,3,4] and add 5 to it with .append(). You observe that after modification, it still refers to the same memory location as before and hence it is of mutable type.
+
+# intial list 
+l = [1,2,3,4]
+# initial memory location
+print(id(l))
+print('='*20)
+# new list
+l.append(5)
+print(l)
+print('='*20)
+# new memory location
+print(id(l))
+Output
+
+139678448773256
+====================
+[1, 2, 3, 4, 5]
+====================
+139678448773256

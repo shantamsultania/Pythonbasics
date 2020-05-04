@@ -1,0 +1,16 @@
+x, y = True, False
+
+# Code starts here
+
+# AND operation
+
+
+x_and_y = x and y
+
+# OR operation
+
+x_or_y = x or y
+
+print(x_and_y)
+print(x_or_y)
+# Code ends here

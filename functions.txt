@@ -1,0 +1,12 @@
+# Code starts here
+
+
+def mean(n):
+    sum = 0.0
+    for i in range(n+1):
+        sum += i
+    val1 = sum/n
+    return val1
+
+val = mean(4)
+# Code ends here

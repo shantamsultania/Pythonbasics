@@ -1,0 +1,32 @@
+x=15
+y=4
+
+# Code starts here
+
+# addition
+addition = x + y
+
+# subtraction
+
+subtraction = x - y
+
+# multiplication
+
+multiplication = x * y
+# division
+
+division = x/y
+# integer division
+
+integer_division = x//y
+
+# exponentiation
+
+exponent = x ** y
+
+print(addition)
+print(subtraction)
+print(multiplication)
+print(division)
+print(integer_division)
+print(exponent)
